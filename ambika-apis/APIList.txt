@@ -1,0 +1,48 @@
+----------------Sign Up-----------------
+1. validateUserExistence -- http://127.0.0.1:3000/validateUserExistence/connect_main/400/reshmafaizansayyed@gmail.com -- DONE
+2. addPassword -- http://127.0.0.1:3000/addPassword -- DONE
+data =>
+{
+    "conn" : "connect_main",
+    "ambikaid" : 400,
+    "password" : "test400"
+}
+3. addOTP -- http://127.0.0.1:3000/addOTP -- DONE
+{
+    "conn" : "connect_main",
+    "ambikaid" : "400",
+    "emailid" : "reshmafaizansayyed@gmail.com",
+    "otp" : "0923"
+}
+4. getOTP -- http://127.0.0.1:3000/getOTP/connect_main/400/reshmafaizansayyed@gmail.com -- DONE
+
+-----------------Sign In-----------------
+1. validateCredentialsToGetAY -- http://127.0.0.1:3000/validateCredentialsToGetAY -- DONE
+{
+    "conn" : "connect_main",
+    "environment" : "DEV",
+    "ambikaid" : 400,
+    "password" : "test400"
+}
+2. getStudentData -- http://127.0.0.1:3000/getStudentData/connect_2122/400 -- DONE
+
+-----------------Lectures-----------------
+1. getLectures -- http://127.0.0.1:3000/getLectures/connect_2122/CS10BSBA -- DONE
+2. getLecturesByDate -- http://127.0.0.1:3000/getLecturesByDate/connect_2122/2021-12-15 -- DONE
+
+-----------------Fees-----------------
+1. getFeeDetails -- http://127.0.0.1:3000/getFeeDetails/connect_2122/1/CS10BSBA -- DONE
+
+-----------------Ads and notices-----------------
+1. getAllNotices -- http://127.0.0.1:3000/getAllNotices/connect_main/272/CS10BSBA/connect_2122 -- DONE
+2. getAds -- http://127.0.0.1:3000/getAds/connect_main -- DONE
+3. getCommonNotices -- http://127.0.0.1:3000/getCommonNotices -- DONE
+
+-----------------Enquiry-----------------
+1. addEnquiry
+
+-----------------Employment Enquiry-----------------
+1. addEmploymentEnquiry
+
+-----------------App Configuration-----------------
+1. getBaseURL -- http://127.0.0.1:3000/getBaseURL -- DONE
